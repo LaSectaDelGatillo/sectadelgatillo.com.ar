@@ -8,7 +8,7 @@ var fotos_ent = [];
 
 document.addEventListener("DOMContentLoaded", function() {
     var fotos = document.getElementsByClassName("foto");
-    // console.log(fotos);
+    // `console.log(fotos);
     // console.log(fotos.length);
 
     for (var i = 0; i < fotos.length; i++) {
@@ -25,7 +25,6 @@ function render(){
     requestAnimationFrame(render);
     u_time++;
     //----------------------------------------------------------//
-    console.log(u_time);
     if(u_time>3500 && u_time<6000){
 
         for (var i = 0; i < fotos_ent.length; i++) {
